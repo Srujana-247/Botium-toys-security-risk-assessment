@@ -1,78 +1,93 @@
-# Botium Toys Security Risk Assessment
+# Botium Toys Security Controls, Compliance Checklist and Risk Assessment
 
-A beginner-level cybersecurity portfolio project reviewing security controls, identifying potential risks, and recommending improvements for **Botium Toys**, a fictional company.
+Beginner-level cybersecurity case study.
 
-## Project Report
+**[Open the assessment report (PDF)](Botium_Toys_Merged_Beginner_Cybersecurity_Assessment.pdf)**
 
-**[View the completed assessment (PDF)](Botium_Toys_Merged_Beginner_Cybersecurity_Assessment.pdf)**
+## 1. Scope and Goals
 
-## Overview
+The assessment reviews the security program described in the fictional Botium Toys case study, including assets, employee devices, the internal network, systems, stored data, security controls, and compliance practices.
 
-This project documents a security risk assessment based on the fictional Botium Toys case study. It demonstrates how a beginner security analyst can review an organization's stated security controls, identify potential gaps, consider risk, and recommend practical improvements.
+The goals are to review assets and existing controls, complete the security controls and compliance checklists, identify gaps, and recommend improvements.
 
-## Objectives
+## 2. Current Assets
 
-- Review the assets and security controls described in the case study.
-- Identify potential weaknesses in areas such as access management, data protection, backups, monitoring, and asset inventory.
-- Record risk observations and prioritize areas for improvement.
-- Consider relevant security and compliance topics, including PCI DSS, GDPR, and SOC-related controls, at an introductory level.
-- Communicate findings and recommendations in a structured report.
+The report covers on-premises equipment, employee equipment, retail products, systems and services, internet access, the internal network, data retention and storage, and legacy systems.
 
-## Scope and Methodology
+## 3. Risk Assessment
 
-The assessment is limited to the information provided in the fictional case study. The approach is to:
+The case study describes inadequate asset management and missing or insufficient security controls. The report refers to the **Identify** function of the NIST Cybersecurity Framework.
 
-1. Identify relevant assets and security considerations.
-2. Review the stated controls against basic security practices.
-3. Document potential risks and control gaps.
-4. Recommend improvements and follow-up actions.
-5. Note where additional evidence would be needed in a real assessment.
+| Item | Assessment from the case study |
+|---|---|
+| Overall risk score | 8/10 — fairly high |
+| Potential impact of asset loss | Medium |
+| Risk related to regulatory fines and data protection | High |
 
-This project does not include live-system testing, vulnerability scanning, penetration testing, interviews, or independent verification of controls.
+The score and impact ratings are taken from the supplied case study and were not independently recalculated.
 
-## Key Areas Reviewed
+## 4. Security Controls Assessment Checklist
 
-- Access control and least privilege
-- Password practices and account management
-- Data protection and encryption
-- Backups and recovery planning
-- Asset inventory and monitoring
-- Intrusion detection considerations
-- Security policies and compliance awareness
+The report reviews these controls and their status in the case study:
 
-## Recommendations Considered
+- Least privilege — No
+- Disaster recovery plans — No
+- Password policies — Needs improvement
+- Separation of duties — No
+- Firewall — Yes
+- Intrusion detection system (IDS) — No
+- Backups — No
+- Antivirus software — Yes
+- Legacy system monitoring and maintenance — Needs improvement
+- Encryption — No
+- Password management system — No
+- Physical locks — Yes
+- CCTV surveillance — Yes
+- Fire detection and prevention — Yes
 
-- Apply least privilege and review access permissions regularly.
-- Strengthen password and account-management practices.
-- Protect sensitive data with appropriate encryption and handling procedures.
-- Establish and test backups and recovery plans.
-- Improve asset inventory, monitoring, and incident detection.
-- Document security responsibilities and review applicable requirements.
+## 5. Compliance Checklist
 
-Recommendations should be interpreted in the context of the case-study evidence and validated before being applied to a real organization.
+The report reviews the practices listed in the supplied case study under:
 
-## Skills Demonstrated
+- **PCI DSS — Payment Card Data**
+- **GDPR — Customer Privacy and Data**
+- **SOC 1 / SOC 2 — Control Objectives**
 
-- Beginner security risk assessment
-- Security control review
-- Risk identification and prioritization
-- Asset and data protection awareness
-- Compliance-awareness research
-- Technical documentation and recommendation writing
+These are case-study checklist assessments, not a formal certification or legal compliance determination.
 
-## Tools and Frameworks
+## 6. Key Findings
 
-This is a documentation-based case study. It uses introductory security-control and compliance concepts, including the NIST Cybersecurity Framework (CSF), PCI DSS, GDPR, and SOC-related considerations. Mentioning a framework does not mean a formal audit or compliance determination was performed.
+- Asset management is inadequate, making it difficult to identify and prioritize assets at risk.
+- Employees may have access to internally stored data, including payment-card information and customers' PII/SPII.
+- Payment-card information is not encrypted in the described environment.
+- Least privilege and separation of duties have not been implemented.
+- There is no IDS, no critical data backup, and no disaster recovery plan.
+- The password policy is weak and there is no centralized password management system.
+- Legacy systems lack a regular maintenance schedule and clear intervention methods.
+- Existing controls include a firewall, antivirus, data-integrity and availability controls, privacy processes, physical locks, CCTV, and fire detection/prevention.
 
-## Limitations and Disclaimer
+## 7. Recommendations
 
-Botium Toys is fictional. This is an educational portfolio exercise, not a real security audit, legal opinion, certification, or formal compliance assessment. Findings are based on the supplied scenario and should not be treated as verified vulnerabilities or confirmed regulatory violations.
+- Implement least privilege and separation of duties.
+- Strengthen password requirements and introduce centralized password management.
+- Protect sensitive customer and payment-card information, including appropriate encryption and access restrictions.
+- Create regular backups and a disaster recovery plan.
+- Evaluate an intrusion detection system and continue security monitoring.
+- Maintain an asset inventory, classify assets, and consider the impact if important assets are lost.
+- Set a regular legacy-system maintenance and monitoring schedule.
+- Review the PCI DSS and GDPR practices and SOC control objectives described in the case.
+- Continue maintaining the firewall, antivirus, physical locks, CCTV, and fire safety systems.
 
-## Repository Contents
+## 8. Simple Action Plan
 
-- `README.md` — project overview, scope, methodology, and skills
-- `Botium_Toys_Merged_Beginner_Cybersecurity_Assessment.pdf` — completed assessment report
+The report includes a six-step action plan covering sensitive-data access, data protection, backups and recovery, asset inventory, password practices and monitoring, and legacy-system maintenance and compliance review.
 
----
+The priority labels in that plan are beginner-level suggestions, not ratings explicitly assigned in the original case study.
 
-Created as a beginner cybersecurity learning and portfolio project.
+## 9. Summary and Conclusion
+
+The supplied case study gives Botium Toys a risk score of 8/10. The main weaknesses include broad employee access to sensitive data, lack of encryption for payment-card information, missing backups and disaster recovery planning, no IDS, weak password management, and inadequate asset management. The report recommends addressing these gaps while maintaining the controls already in place.
+
+## 10. Methodology and Limitations
+
+The report is based on the supplied Botium Toys scope, goals, risk assessment, and controls/compliance checklist. Botium Toys is fictional. This is a beginner-level document review, not a real-world audit, penetration test, or compliance certification. No live systems were tested, no independent evidence was collected, and no security controls were implemented.
