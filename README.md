@@ -2,70 +2,77 @@
 
 A beginner-level cybersecurity portfolio project reviewing security controls, identifying potential risks, and recommending improvements for **Botium Toys**, a fictional company.
 
-> **Disclaimer:** Botium Toys is fictional. This is an educational case study, not a real security audit, legal opinion, or certification assessment.
+## Project Report
 
-## Project Overview
+**[View the completed assessment (PDF)](Botium_Toys_Merged_Beginner_Cybersecurity_Assessment.pdf)**
 
-The goal of this project is to practice how a security analyst documents an organization's security posture, recognizes control gaps, and prioritizes practical recommendations.
+## Overview
 
-### Objectives
+This project documents a security risk assessment based on the fictional Botium Toys case study. It demonstrates how a beginner security analyst can review an organization's stated security controls, identify potential gaps, consider risk, and recommend practical improvements.
 
-- Identify important assets and security considerations.
-- Review existing security controls against the case-study information.
-- Record potential risks and areas that may need improvement.
-- Consider introductory control and compliance topics, including NIST Cybersecurity Framework (CSF), PCI DSS, GDPR, and SOC-related considerations.
-- Recommend actions that could reduce risk and improve security practices.
+## Objectives
 
-## Scope
+- Review the assets and security controls described in the case study.
+- Identify potential weaknesses in areas such as access management, data protection, backups, monitoring, and asset inventory.
+- Record risk observations and prioritize areas for improvement.
+- Consider relevant security and compliance topics, including PCI DSS, GDPR, and SOC-related controls, at an introductory level.
+- Communicate findings and recommendations in a structured report.
 
-This review is limited to the fictional scenario and the information supplied in the case study. It does not include live systems, vulnerability scanning, penetration testing, interviews, or independent verification of controls.
+## Scope and Methodology
 
-## Approach
+The assessment is limited to the information provided in the fictional case study. The approach is to:
 
-1. **Identify:** List relevant assets, business needs, and security considerations.
-2. **Review controls:** Compare the scenario's stated controls with basic security practices.
-3. **Assess risk:** Document potential risks and prioritize areas for attention.
-4. **Recommend:** Suggest practical improvements and follow-up actions.
-5. **Document limitations:** Separate scenario-based observations from facts that would require validation in a real organization.
+1. Identify relevant assets and security considerations.
+2. Review the stated controls against basic security practices.
+3. Document potential risks and control gaps.
+4. Recommend improvements and follow-up actions.
+5. Note where additional evidence would be needed in a real assessment.
 
-## Key Deliverables
+This project does not include live-system testing, vulnerability scanning, penetration testing, interviews, or independent verification of controls.
 
-- Security control checklist covering 14 control areas.
-- Risk observations and prioritization.
-- Introductory compliance considerations.
-- Recommendations and an action plan for improvement.
+## Key Areas Reviewed
 
-The case-study worksheet used an initial risk score of **8/10**. This is a project-specific learning estimate, not a formally validated or industry-standard risk rating.
+- Access control and least privilege
+- Password practices and account management
+- Data protection and encryption
+- Backups and recovery planning
+- Asset inventory and monitoring
+- Intrusion detection considerations
+- Security policies and compliance awareness
 
-## Example Improvement Areas
+## Recommendations Considered
 
-Recommendations in this type of review may include:
+- Apply least privilege and review access permissions regularly.
+- Strengthen password and account-management practices.
+- Protect sensitive data with appropriate encryption and handling procedures.
+- Establish and test backups and recovery plans.
+- Improve asset inventory, monitoring, and incident detection.
+- Document security responsibilities and review applicable requirements.
 
-- Strengthening access control and account management.
-- Enabling multi-factor authentication where appropriate.
-- Reviewing backups and recovery procedures.
-- Improving security awareness and incident reporting.
-- Documenting policies, responsibilities, and periodic control reviews.
-- Confirming applicable compliance obligations with qualified personnel.
+Recommendations should be interpreted in the context of the case-study evidence and validated before being applied to a real organization.
 
-Recommendations should be validated against the scenario details before being treated as final findings.
-
-## Skills Practiced
+## Skills Demonstrated
 
 - Beginner security risk assessment
-- Security control review and documentation
+- Security control review
 - Risk identification and prioritization
+- Asset and data protection awareness
 - Compliance-awareness research
-- Clear technical writing and recommendations
+- Technical documentation and recommendation writing
+
+## Tools and Frameworks
+
+This is a documentation-based case study. It uses introductory security-control and compliance concepts, including the NIST Cybersecurity Framework (CSF), PCI DSS, GDPR, and SOC-related considerations. Mentioning a framework does not mean a formal audit or compliance determination was performed.
+
+## Limitations and Disclaimer
+
+Botium Toys is fictional. This is an educational portfolio exercise, not a real security audit, legal opinion, certification, or formal compliance assessment. Findings are based on the supplied scenario and should not be treated as verified vulnerabilities or confirmed regulatory violations.
 
 ## Repository Contents
 
-The README documents the project and its methodology. Add the completed assessment report (DOCX and/or PDF) to this repository so reviewers can inspect the full checklist, findings, and recommendations.
+- `README.md` — project overview, scope, methodology, and skills
+- `Botium_Toys_Merged_Beginner_Cybersecurity_Assessment.pdf` — completed assessment report
 
-## Limitations
-
-This project is based on a fictional case study and limited supplied information. The observations are illustrative and should not be interpreted as verified vulnerabilities, a complete compliance review, or proof that an organization meets or fails a regulatory requirement.
-
-## Author
+---
 
 Created as a beginner cybersecurity learning and portfolio project.
