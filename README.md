@@ -67,6 +67,3 @@ These are case-study checklist assessments, not a formal certification or legal 
 - Review the PCI DSS and GDPR practices and SOC control objectives described in the case.
 - Continue maintaining the firewall, antivirus, physical locks, CCTV, and fire safety systems.
 
-## 7. Summary and Conclusion
-
-The supplied case study gives Botium Toys a risk score of 8/10. The assessment highlights gaps in access controls, payment-card data protection, backups and disaster recovery planning, intrusion detection, password management, and asset management. The report recommends addressing these gaps while maintaining the controls already in place.
