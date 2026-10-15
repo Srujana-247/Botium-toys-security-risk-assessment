@@ -55,18 +55,7 @@ The report reviews the practices listed in the supplied case study under:
 
 These are case-study checklist assessments, not a formal certification or legal compliance determination.
 
-## 6. Key Findings
-
-- Asset management is inadequate, making it difficult to identify and prioritize assets at risk.
-- Employees may have access to internally stored data, including payment-card information and customers' PII/SPII.
-- Payment-card information is not encrypted in the described environment.
-- Least privilege and separation of duties have not been implemented.
-- There is no IDS, no critical data backup, and no disaster recovery plan.
-- The password policy is weak and there is no centralized password management system.
-- Legacy systems lack a regular maintenance schedule and clear intervention methods.
-- Existing controls include a firewall, antivirus, data-integrity and availability controls, privacy processes, physical locks, CCTV, and fire detection/prevention.
-
-## 7. Recommendations
+## 6. Recommendations
 
 - Implement least privilege and separation of duties.
 - Strengthen password requirements and introduce centralized password management.
@@ -78,16 +67,12 @@ These are case-study checklist assessments, not a formal certification or legal 
 - Review the PCI DSS and GDPR practices and SOC control objectives described in the case.
 - Continue maintaining the firewall, antivirus, physical locks, CCTV, and fire safety systems.
 
-## 8. Simple Action Plan
+## 7. Simple Action Plan
 
 The report includes a six-step action plan covering sensitive-data access, data protection, backups and recovery, asset inventory, password practices and monitoring, and legacy-system maintenance and compliance review.
 
 The priority labels in that plan are beginner-level suggestions, not ratings explicitly assigned in the original case study.
 
-## 9. Summary and Conclusion
+## 8. Summary and Conclusion
 
-The supplied case study gives Botium Toys a risk score of 8/10. The main weaknesses include broad employee access to sensitive data, lack of encryption for payment-card information, missing backups and disaster recovery planning, no IDS, weak password management, and inadequate asset management. The report recommends addressing these gaps while maintaining the controls already in place.
-
-## 10. Methodology and Limitations
-
-The report is based on the supplied Botium Toys scope, goals, risk assessment, and controls/compliance checklist. Botium Toys is fictional. This is a beginner-level document review, not a real-world audit, penetration test, or compliance certification. No live systems were tested, no independent evidence was collected, and no security controls were implemented.
+The supplied case study gives Botium Toys a risk score of 8/10. The assessment highlights gaps in access controls, payment-card data protection, backups and disaster recovery planning, intrusion detection, password management, and asset management. The report recommends addressing these gaps while maintaining the controls already in place.
